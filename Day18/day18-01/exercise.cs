@@ -15,6 +15,11 @@
             PrincipleAmount = 0m;
             Tenure = 0;
         }
+        public virtual void Display()
+        {
+            Console.WriteLine("Loan Display");
+            Console.WriteLine($"EMI = {CalculateEMI():C2}");
+        }
         public Loan(string id, string name, decimal Amount, int tenure)
         {
             LoanNumber = id;
@@ -54,6 +59,12 @@
             return totalAmount / (Tenure * 12);
         }
 
+        public override void Display()
+        {
+            Console.WriteLine("Home Loan Display");
+            Console.WriteLine($"EMI = {CalculateEMI():C2}");
+        }
+
     }
     class CarLoan : Loan
     {
@@ -65,6 +76,14 @@
             decimal interest = newPrincipal * 9 / 100 * Tenure;
             decimal totalAmount = newPrincipal + interest;
             return totalAmount / (Tenure * 12);
+        }
+
+        public override void Display()
+        {
+            Console.WriteLine("----- CAR LOAN -----");
+            Console.WriteLine(ToString());
+            Console.WriteLine($"EMI = {CalculateEMI():C2}");
+            Console.WriteLine("Executed from CarLoan\n");
         }
 
     }
