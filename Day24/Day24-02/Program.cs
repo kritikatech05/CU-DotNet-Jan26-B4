@@ -20,9 +20,15 @@
             Console.WriteLine($"fastest player :{fastest}");
 
             Console.WriteLine();
-            leaderboard.Remove(58.91);
+
+            var value = "SteadyEddie";
+
+            var key = leaderboard.FirstOrDefault(x => x.Value == value).Key;
+            leaderboard.Remove(key);
+
             leaderboard.Add(54.00, "SteadyEddie");
-            
+
+
 
             Console.WriteLine($"----after update----");
             Console.WriteLine();
