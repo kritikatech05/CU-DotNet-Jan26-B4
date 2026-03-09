@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Know Your Customer (KYC) Form</title>
+  </head>
+  <body>
+    <form>
+      <h2>Know Your Customer (KYC) Form</h2>
+      <table>
+        <tr>
+          <td>
+            <label>First Name</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="FirstName"
+              id="FirstName"
+              value=""
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Middle Name</label>
+          </td>
+          <td>
+            <input type="text" name="MiddleName" id="MiddleName" value="" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Last Name</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="LastName"
+              id="LastName"
+              value=""
+              required
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label>Date Of Birth</label>
+          </td>
+          <td>
+            <input type="date" name="DOB" id="DOB" max="2008-01-01" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label>Gender</label>
+          </td>
+          <td>
+            <input type="radio" name="gender" id="Male" /><label for="Male"
+              >Male</label
+            >
+            <input type="radio" name="gender" id="Female" /><label for="Female"
+              >Female</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Father's Name</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="FatherName"
+              id="FatherName"
+              value=""
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Mother's Name</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="MotherName"
+              id="MotherName"
+              value=""
+              required
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label>Proof Of Address (POA)</label>
+          </td>
+
+          <td>
+            <br /><input type="checkbox" name="Aadhar" id="aadhar" />
+            <label for="aadhar">aadhar</label>
+
+            <input
+              type="checkbox"
+              name="Driving License"
+              id="Driving License"
+            />
+            <label for="Driving License">Driving License</label> <br />
+            <input type="checkbox" name="VoterId" id="VoterId" />
+            <label for="VoterId">Voter ID</label>
+            <input type="checkbox" name="Passport" id="Passport" />
+            <label for="Passport">Passport</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label>Proof Of Identity (POI)</label>
+          </td>
+
+          <td>
+            <br /><label>Aadhar number</label>
+            <input type="text" name="aadhar number" pattern="^[0-9]{12}$" />
+            <br />
+
+            <label>PAN number</label>
+            <input
+              type="text"
+              name="PAN number"
+              pattern="^[A-Z]{5}[0-9]{4}[A-Z]$"
+            />
+            <br />
+
+            <label>phone number</label>
+            <input type="text" name="phone number" pattern="^[0-9]{10}$" />
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
