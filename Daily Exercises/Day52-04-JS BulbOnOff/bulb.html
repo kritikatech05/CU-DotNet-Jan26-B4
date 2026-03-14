@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Light Switch</title>
+
+<script>
+
+function switchOn(){
+    document.getElementById("bulb").src = "/images/onchatgpt.png";
+}
+
+function switchOff(){
+    document.getElementById("bulb").src = "/images/ofchatgpt.png";
+}
+
+</script>
+
+</head>
+
+<body style="text-align:center; font-family:Arial">
+
+<input type="button" value="Switch Off" onclick="switchOff()">
+<input type="button" value="Switch On" onclick="switchOn()">
+
+<br><br>
+
+<img id="bulb" src="/images/ofchatgpt.png" alt="bulb" width="200">
+
+</body>
+</html>

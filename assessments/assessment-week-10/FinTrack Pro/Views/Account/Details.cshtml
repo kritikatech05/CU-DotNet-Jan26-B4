@@ -1,0 +1,41 @@
+﻿@model FinTrack_Pro.Models.Account
+
+<h2>Account Details</h2>
+
+<div class="card p-3 mb-3">
+
+    <p><strong>Account Number:</strong> @Model.AccountNumber</p>
+    <p><strong>Account Holder:</strong> @Model.AccountHolder</p>
+    <p><strong>Balance:</strong> @Model.Balance</p>
+
+</div>
+
+<h3>Transactions</h3>
+
+<a asp-controller="Transaction"
+   asp-action="Create"
+   asp-route-accountId="@Model.Id"
+   class="btn btn-primary mb-3">
+    Add Transaction
+</a>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Date</th>
+        <th>Description</th>
+        <th>Category</th>
+        <th>Amount</th>
+    </tr>
+
+    @foreach (var t in Model.Transactions)
+    {
+        <tr>
+            <td>@t.Date.ToShortDateString()</td>
+            <td>@t.Description</td>
+            <td>@t.Category</td>
+            <td>@t.Amount</td>
+        </tr>
+    }
+
+</table>

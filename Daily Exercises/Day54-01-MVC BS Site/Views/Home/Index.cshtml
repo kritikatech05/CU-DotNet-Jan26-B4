@@ -1,0 +1,88 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Hero Section -->
+<div class="p-5 mb-4 bg-light rounded-3 text-center">
+    <div class="container py-5">
+        <h1 class="display-4">Welcome to CompanyPortal</h1>
+        <p class="lead">
+            We provide innovative software solutions, consulting services,
+            and professional training for modern businesses.
+        </p>
+
+        <button class="btn btn-primary btn-lg" onclick="showToast()">
+            Shows quick info about services
+        </button>
+    </div>
+</div>
+
+<!-- Cards Section -->
+<div class="container">
+    <div class="d-flex justify-content-center gap-4">
+
+        <!-- Card 1 -->
+        <div class="card" style="width: 18rem;">
+            <img src="~/img/consulting.jpg" class="card-img-top" style="height:200px; object-fit:cover;" alt="service">
+            <div class="card-body">
+                <h5 class="card-title">Consulting</h5>
+                <p class="card-text">
+                    Professional IT consulting to help businesses grow.
+                </p>
+                <a href="/Services/Consulting" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card" style="width: 18rem;">
+            <img src="~/img/training.jpg" class="card-img-top" style="height:200px; object-fit:cover;" alt="training">
+            <div class="card-body">
+                <h5 class="card-title">Training</h5>
+                <p class="card-text">
+                    Hands-on training programs for developers and teams.
+                </p>
+                <a href="/Services/Training" class="btn btn-primary">Explore</a>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card" style="width: 18rem;">
+            <img src="~/img/products.jpg" class="card-img-top" style="height:200px; object-fit:cover;" alt="products">
+            <div class="card-body">
+                <h5 class="card-title">Products</h5>
+                <p class="card-text">
+                    Innovative software products for modern businesses.
+                </p>
+                <a href="/Products/Software" class="btn btn-primary">View Products</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Toast -->
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index:11">
+
+    <div id="liveToast" class="toast">
+
+        <div class="toast-header">
+            <strong class="me-auto">CompanyPortal</strong>
+            <small>Now</small>
+            <button class="btn-close" data-bs-dismiss="toast"></button>
+        </div>
+
+        <div class="toast-body">
+            Check out our Consulting, Training, and Software solutions!
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+    function showToast() {
+        var toastEl = document.getElementById('liveToast');
+        var toast = new bootstrap.Toast(toastEl);
+        toast.show();
+    }
+</script>
