@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4956346B-31EC-4753-E3FA-C7485B6176B3}|TransactionService\\TransactionService.csproj|d:\\capgemini training\\kushagar github\\cu-dotnet-jan26-b4\\assignment\\week12\\day64\\demosmartbank\\transactionservice\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4956346B-31EC-4753-E3FA-C7485B6176B3}|TransactionService\\TransactionService.csproj|solutionrelative:transactionservice\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\TransactionService\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "TransactionService\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\TransactionService\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "TransactionService\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T04:33:29.704Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

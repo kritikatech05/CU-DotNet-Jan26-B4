@@ -1,0 +1,64 @@
+﻿@model IEnumerable<IdentityUser>
+@using Microsoft.AspNetCore.Identity
+
+<h2>Manage Users & Roles</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Assign Role</th>
+            <th>Action</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <form asp-action="AssignRole" method="post">
+                    <td>
+                        @user.Email
+                        <input type="hidden" name="userId" value="@user.Id" />
+                    </td>
+
+                    <td>
+                        <select name="role" class="form-control">
+                            @foreach (var role in ViewBag.Roles)
+                            {
+                                if (ViewBag.UserRoles[user.Id] == role)
+                                {
+                                    <option value="@role" selected>@role</option>
+                                }
+                                else
+                                {
+                                    <option value="@role">@role</option>
+                                }
+                            }
+                        </select>
+                    </td>
+
+                    <td>
+                        <button type="submit" class="btn btn-primary">
+                            Update Role
+                        </button>
+                    </td>
+                    
+                    <td>
+                        <a asp-action="Details" asp-route-id="@user.Id" class="btn btn-info">
+                            Details
+                        </a>
+                    </td>
+                </form>
+            </tr>
+        }
+    </tbody>
+</table>

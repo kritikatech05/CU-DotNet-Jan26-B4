@@ -1,0 +1,42 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+<h2>Car List</h2>
+
+@if (User.IsInRole("Admin") || User.IsInRole("Customer"))
+{
+    <a asp-action="Create" class="btn btn-success">Add Car</a>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var car in Model)
+        {
+            <tr>
+                <td>@car.Brand</td>
+                <td>@car.Model</td>
+                <td>@car.Year</td>
+                <td>@car.Price</td>
+
+                <td>
+                    <a asp-action="Details" asp-route-id="@car.Id" class="btn btn-info">Details</a>
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@car.Id" class="btn btn-warning">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@car.Id" class="btn btn-danger">Delete</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

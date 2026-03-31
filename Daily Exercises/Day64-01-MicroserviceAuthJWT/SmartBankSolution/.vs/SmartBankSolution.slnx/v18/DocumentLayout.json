@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BD0DB0D-E748-45DA-8A63-C5A319932C38}|SmartBank.TransactionService\\SmartBank.TransactionService.csproj|d:\\capgemini training\\kushagar github\\cu-dotnet-jan26-b4\\assignment\\week12\\day64\\demosmartbank\\smartbanksolution\\smartbank.transactionservice\\dtos\\transactioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BD0DB0D-E748-45DA-8A63-C5A319932C38}|SmartBank.TransactionService\\SmartBank.TransactionService.csproj|solutionrelative:smartbank.transactionservice\\dtos\\transactioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BD0DB0D-E748-45DA-8A63-C5A319932C38}|SmartBank.TransactionService\\SmartBank.TransactionService.csproj|d:\\capgemini training\\kushagar github\\cu-dotnet-jan26-b4\\assignment\\week12\\day64\\demosmartbank\\smartbanksolution\\smartbank.transactionservice\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BD0DB0D-E748-45DA-8A63-C5A319932C38}|SmartBank.TransactionService\\SmartBank.TransactionService.csproj|solutionrelative:smartbank.transactionservice\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\SmartBank.TransactionService\\Migrations\\20260330044008_Transactioninit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SmartBank.TransactionService\\Migrations\\20260330044008_Transactioninit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BD0DB0D-E748-45DA-8A63-C5A319932C38}|SmartBank.TransactionService\\SmartBank.TransactionService.csproj|d:\\capgemini training\\kushagar github\\cu-dotnet-jan26-b4\\assignment\\week12\\day64\\demosmartbank\\smartbanksolution\\smartbank.transactionservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0BD0DB0D-E748-45DA-8A63-C5A319932C38}|SmartBank.TransactionService\\SmartBank.TransactionService.csproj|solutionrelative:smartbank.transactionservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\APIServices\\SmartBank.AuthService\\Migrations\\20260330043859_Authinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:APIServices\\SmartBank.AuthService\\Migrations\\20260330043859_Authinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B562790-E6B5-4037-BFF4-52ABF8C71CFD}|APIServices\\SmartBank.AuthService\\SmartBank.AuthService.csproj|d:\\capgemini training\\kushagar github\\cu-dotnet-jan26-b4\\assignment\\week12\\day64\\demosmartbank\\smartbanksolution\\apiservices\\smartbank.authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B562790-E6B5-4037-BFF4-52ABF8C71CFD}|APIServices\\SmartBank.AuthService\\SmartBank.AuthService.csproj|solutionrelative:apiservices\\smartbank.authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\APIServices\\SmartBank.AccountService\\Migrations\\20260330043722_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:APIServices\\SmartBank.AccountService\\Migrations\\20260330043722_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A64083-4954-5EC7-2330-3509D808EE96}|APIServices\\SmartBank.AccountService\\SmartBank.AccountService.csproj|d:\\capgemini training\\kushagar github\\cu-dotnet-jan26-b4\\assignment\\week12\\day64\\demosmartbank\\smartbanksolution\\apiservices\\smartbank.accountservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{63A64083-4954-5EC7-2330-3509D808EE96}|APIServices\\SmartBank.AccountService\\SmartBank.AccountService.csproj|solutionrelative:apiservices\\smartbank.accountservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionCreateDto.cs",
+              "DocumentMoniker": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\SmartBank.TransactionService\\DTOs\\TransactionCreateDto.cs",
+              "RelativeDocumentMoniker": "SmartBank.TransactionService\\DTOs\\TransactionCreateDto.cs",
+              "ToolTip": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\SmartBank.TransactionService\\DTOs\\TransactionCreateDto.cs",
+              "RelativeToolTip": "SmartBank.TransactionService\\DTOs\\TransactionCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T04:42:44.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\SmartBank.TransactionService\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "SmartBank.TransactionService\\Controllers\\TransactionController.cs",
+              "ToolTip": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\SmartBank.TransactionService\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "SmartBank.TransactionService\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T04:42:19.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260330044008_Transactioninit.cs",
+              "DocumentMoniker": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\SmartBank.TransactionService\\Migrations\\20260330044008_Transactioninit.cs",
+              "RelativeDocumentMoniker": "SmartBank.TransactionService\\Migrations\\20260330044008_Transactioninit.cs",
+              "ToolTip": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\SmartBank.TransactionService\\Migrations\\20260330044008_Transactioninit.cs",
+              "RelativeToolTip": "SmartBank.TransactionService\\Migrations\\20260330044008_Transactioninit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T04:40:08.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\SmartBank.TransactionService\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartBank.TransactionService\\appsettings.json",
+              "ToolTip": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\SmartBank.TransactionService\\appsettings.json",
+              "RelativeToolTip": "SmartBank.TransactionService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T04:39:30.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260330043859_Authinit.cs",
+              "DocumentMoniker": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\APIServices\\SmartBank.AuthService\\Migrations\\20260330043859_Authinit.cs",
+              "RelativeDocumentMoniker": "APIServices\\SmartBank.AuthService\\Migrations\\20260330043859_Authinit.cs",
+              "ToolTip": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\APIServices\\SmartBank.AuthService\\Migrations\\20260330043859_Authinit.cs",
+              "RelativeToolTip": "APIServices\\SmartBank.AuthService\\Migrations\\20260330043859_Authinit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T04:38:59.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\APIServices\\SmartBank.AuthService\\appsettings.json",
+              "RelativeDocumentMoniker": "APIServices\\SmartBank.AuthService\\appsettings.json",
+              "ToolTip": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\APIServices\\SmartBank.AuthService\\appsettings.json",
+              "RelativeToolTip": "APIServices\\SmartBank.AuthService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T04:37:51.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260330043722_init.cs",
+              "DocumentMoniker": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\APIServices\\SmartBank.AccountService\\Migrations\\20260330043722_init.cs",
+              "RelativeDocumentMoniker": "APIServices\\SmartBank.AccountService\\Migrations\\20260330043722_init.cs",
+              "ToolTip": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\APIServices\\SmartBank.AccountService\\Migrations\\20260330043722_init.cs",
+              "RelativeToolTip": "APIServices\\SmartBank.AccountService\\Migrations\\20260330043722_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T04:37:23.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\APIServices\\SmartBank.AccountService\\appsettings.json",
+              "RelativeDocumentMoniker": "APIServices\\SmartBank.AccountService\\appsettings.json",
+              "ToolTip": "D:\\capgemini training\\kushagar github\\CU-DotNet-Jan26-B4\\Assignment\\Week12\\Day64\\DemoSmartBank\\SmartBankSolution\\APIServices\\SmartBank.AccountService\\appsettings.json",
+              "RelativeToolTip": "APIServices\\SmartBank.AccountService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T04:36:07.868Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
