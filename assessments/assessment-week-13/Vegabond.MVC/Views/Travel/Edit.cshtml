@@ -1,0 +1,66 @@
+﻿@model Vegabond.MVC.Models.Destination
+
+<div class="container mt-5">
+    <h2 class="mb-4">✏️ Edit Destination</h2>
+
+    <form asp-action="Edit" method="post">
+
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label class="form-label">City Name</label>
+            <input asp-for="CityName" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Country</label>
+            <input asp-for="Country" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Description</label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+        </div>
+
+        <!-- ⭐ STAR RATING -->
+        <div class="mb-3">
+            <label class="form-label">Rating</label>
+
+            <div id="starRating" style="font-size: 24px; cursor: pointer;">
+                @for (int i = 1; i <= 5; i++)
+                {
+                    <span onclick="setRating(@i)" id="star-@i">☆</span>
+                }
+            </div>
+
+            <input type="hidden" asp-for="Rating" id="ratingValue" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Last Visited</label>
+            <input asp-for="LastVisited" type="date" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Update</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        function setRating(value) {
+            document.getElementById("ratingValue").value = value;
+
+            for (let i = 1; i <= 5; i++) {
+                document.getElementById("star-" + i).innerHTML =
+                    i <= value ? "★" : "☆";
+            }
+        }
+
+        // 🔥 preload existing rating
+        window.onload = function () {
+            setRating(@Model.Rating);
+        }
+    </script>
+}

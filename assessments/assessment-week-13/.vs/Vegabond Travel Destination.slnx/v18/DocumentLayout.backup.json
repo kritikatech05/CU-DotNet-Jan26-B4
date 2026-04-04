@@ -1,0 +1,491 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|solutionrelative:vegabond.mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.mvc\\views\\travel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|solutionrelative:vegabond.mvc\\views\\travel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.mvc\\controllers\\travelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|solutionrelative:vegabond.mvc\\controllers\\travelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|solutionrelative:vegabond.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.mvc\\views\\travel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|solutionrelative:vegabond.mvc\\views\\travel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.mvc\\services\\destinationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|solutionrelative:vegabond.mvc\\services\\destinationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.mvc\\services\\idestinationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|solutionrelative:vegabond.mvc\\services\\idestinationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|solutionrelative:vegabond.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.api\\migrations\\20260404044447_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|solutionrelative:vegabond.api\\migrations\\20260404044447_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.api\\vegabond.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|solutionrelative:vegabond.api\\vegabond.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.mvc\\models\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|solutionrelative:vegabond.mvc\\models\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.mvc\\vegabond.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{84148BF7-DEE4-4590-9332-C521E2C568CE}|Vegabond.MVC\\Vegabond.MVC.csproj|solutionrelative:vegabond.mvc\\vegabond.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.api\\models\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|solutionrelative:vegabond.api\\models\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.api\\controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|solutionrelative:vegabond.api\\controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|solutionrelative:vegabond.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|solutionrelative:vegabond.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|solutionrelative:vegabond.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.api\\repositories\\destinationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|solutionrelative:vegabond.api\\repositories\\destinationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.api\\exceptions\\destinationnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|solutionrelative:vegabond.api\\exceptions\\destinationnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.api\\repositories\\idestinationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|solutionrelative:vegabond.api\\repositories\\idestinationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|d:\\capgemini training\\dotnet\\assessments\\vegabond travel destination\\vegabond.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9886D92F-EAD9-4207-8659-DE46B1EA5EC8}|Vegabond.API\\Vegabond.API.csproj|solutionrelative:vegabond.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 486,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{797f5b3d-853a-4854-a9f2-c488bac2661b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Vegabond.MVC\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\wwwroot\\css\\site.css*",
+              "RelativeToolTip": "Vegabond.MVC\\wwwroot\\css\\site.css*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-04T06:16:34.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TravelController.cs",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Controllers\\TravelController.cs",
+              "RelativeDocumentMoniker": "Vegabond.MVC\\Controllers\\TravelController.cs",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Controllers\\TravelController.cs*",
+              "RelativeToolTip": "Vegabond.MVC\\Controllers\\TravelController.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T05:04:58.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Views\\Travel\\Index.cshtml",
+              "RelativeDocumentMoniker": "Vegabond.MVC\\Views\\Travel\\Index.cshtml",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Views\\Travel\\Index.cshtml*",
+              "RelativeToolTip": "Vegabond.MVC\\Views\\Travel\\Index.cshtml*",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAYwKwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T05:05:30.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Vegabond.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Vegabond.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAYwG8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T05:11:04.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DestinationService.cs",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Services\\DestinationService.cs",
+              "RelativeDocumentMoniker": "Vegabond.MVC\\Services\\DestinationService.cs",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Services\\DestinationService.cs",
+              "RelativeToolTip": "Vegabond.MVC\\Services\\DestinationService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T05:03:42.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Views\\Travel\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Vegabond.MVC\\Views\\Travel\\Edit.cshtml",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Views\\Travel\\Edit.cshtml",
+              "RelativeToolTip": "Vegabond.MVC\\Views\\Travel\\Edit.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T05:44:23.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDestinationService.cs",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Services\\IDestinationService.cs",
+              "RelativeDocumentMoniker": "Vegabond.MVC\\Services\\IDestinationService.cs",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Services\\IDestinationService.cs",
+              "RelativeToolTip": "Vegabond.MVC\\Services\\IDestinationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T05:03:18.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Vegabond.API",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Vegabond.API.csproj",
+              "RelativeDocumentMoniker": "Vegabond.API\\Vegabond.API.csproj",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Vegabond.API.csproj",
+              "RelativeToolTip": "Vegabond.API\\Vegabond.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-04T04:30:12.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260404044447_init.cs",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Migrations\\20260404044447_init.cs",
+              "RelativeDocumentMoniker": "Vegabond.API\\Migrations\\20260404044447_init.cs",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Migrations\\20260404044447_init.cs",
+              "RelativeToolTip": "Vegabond.API\\Migrations\\20260404044447_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T04:44:48.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "Vegabond.MVC\\Program.cs",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Program.cs",
+              "RelativeToolTip": "Vegabond.MVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T05:04:27.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Vegabond.MVC",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Vegabond.MVC.csproj",
+              "RelativeDocumentMoniker": "Vegabond.MVC\\Vegabond.MVC.csproj",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Vegabond.MVC.csproj*",
+              "RelativeToolTip": "Vegabond.MVC\\Vegabond.MVC.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-04T05:02:09.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Destination.cs",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Models\\Destination.cs",
+              "RelativeDocumentMoniker": "Vegabond.MVC\\Models\\Destination.cs",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.MVC\\Models\\Destination.cs",
+              "RelativeToolTip": "Vegabond.MVC\\Models\\Destination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T05:02:23.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Program.cs",
+              "RelativeDocumentMoniker": "Vegabond.API\\Program.cs",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Program.cs",
+              "RelativeToolTip": "Vegabond.API\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T04:35:00.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Destination.cs",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Models\\Destination.cs",
+              "RelativeDocumentMoniker": "Vegabond.API\\Models\\Destination.cs",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Models\\Destination.cs",
+              "RelativeToolTip": "Vegabond.API\\Models\\Destination.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T04:27:32.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Vegabond.API\\appsettings.json",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\appsettings.json",
+              "RelativeToolTip": "Vegabond.API\\appsettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-04T04:38:29.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DestinationsController.cs",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Controllers\\DestinationsController.cs",
+              "RelativeDocumentMoniker": "Vegabond.API\\Controllers\\DestinationsController.cs",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Controllers\\DestinationsController.cs",
+              "RelativeToolTip": "Vegabond.API\\Controllers\\DestinationsController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T04:34:34.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Vegabond.API\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Vegabond.API\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T04:33:49.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DestinationNotFoundException.cs",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Exceptions\\DestinationNotFoundException.cs",
+              "RelativeDocumentMoniker": "Vegabond.API\\Exceptions\\DestinationNotFoundException.cs",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Exceptions\\DestinationNotFoundException.cs",
+              "RelativeToolTip": "Vegabond.API\\Exceptions\\DestinationNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T04:32:19.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IDestinationRepository.cs",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Repositories\\IDestinationRepository.cs",
+              "RelativeDocumentMoniker": "Vegabond.API\\Repositories\\IDestinationRepository.cs",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Repositories\\IDestinationRepository.cs",
+              "RelativeToolTip": "Vegabond.API\\Repositories\\IDestinationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T04:31:23.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DestinationRepository.cs",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Repositories\\DestinationRepository.cs",
+              "RelativeDocumentMoniker": "Vegabond.API\\Repositories\\DestinationRepository.cs",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Repositories\\DestinationRepository.cs",
+              "RelativeToolTip": "Vegabond.API\\Repositories\\DestinationRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T04:30:44.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Vegabond.API\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\capgemini training\\dotnet\\assessments\\Vegabond Travel Destination\\Vegabond.API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Vegabond.API\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T04:28:38.166Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 42,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

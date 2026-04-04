@@ -1,0 +1,93 @@
+﻿@model Vegabond.MVC.Models.Destination
+
+<style>
+    body {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        min-height: 100vh;
+    }
+
+    .form-box {
+        max-width: 500px;
+        margin: 60px auto;
+        background: white;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    }
+
+    .star {
+        font-size: 28px;
+        cursor: pointer;
+        color: lightgray;
+    }
+
+        .star.active {
+            color: gold;
+        }
+</style>
+
+<div class="form-box">
+
+    <h3 class="text-center fw-bold mb-4">➕ Add Destination</h3>
+
+    <form asp-action="Create" method="post">
+
+        <div class="mb-3">
+            <label>City</label>
+            <input asp-for="CityName" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label>Country</label>
+            <input asp-for="Country" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label>Description</label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+        </div>
+
+        <!-- ⭐ RATING -->
+        <div class="mb-3 text-center">
+            <label class="fw-bold">Rating</label>
+            <div id="stars">
+                <span class="star" onclick="setRating(1)">★</span>
+                <span class="star" onclick="setRating(2)">★</span>
+                <span class="star" onclick="setRating(3)">★</span>
+                <span class="star" onclick="setRating(4)">★</span>
+                <span class="star" onclick="setRating(5)">★</span>
+            </div>
+
+            <input type="hidden" asp-for="Rating" id="ratingValue" value="3" />
+        </div>
+
+        <div class="mb-3">
+            <label>Last Visited</label>
+            <input asp-for="LastVisited" type="date" class="form-control" />
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+
+            <button type="submit" class="btn btn-success">
+                Save
+            </button>
+        </div>
+
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        function setRating(val) {
+            document.getElementById("ratingValue").value = val;
+
+            let stars = document.querySelectorAll(".star");
+            stars.forEach((s, i) => {
+                s.classList.toggle("active", i < val);
+            });
+        }
+
+        window.onload = () => setRating(3);
+    </script>
+}

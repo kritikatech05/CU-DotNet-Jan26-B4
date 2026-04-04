@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Vegabond.API/Vegabond.API.csproj" />
+  <Project Path="Vegabond.MVC/Vegabond.MVC.csproj" />
+</Solution>

@@ -1,0 +1,286 @@
+﻿@model IEnumerable<Vegabond.MVC.Models.Destination>
+
+<style>
+    body {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        min-height: 100vh;
+        transition: 0.3s;
+    }
+
+    .dark-mode {
+        background: #121212 !important;
+        color: white;
+    }
+
+    .glass {
+        background: rgba(255,255,255,0.15);
+        backdrop-filter: blur(12px);
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        border-radius: 20px;
+        transition: all 0.3s ease;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .dark-mode .card {
+        background: #1e1e1e;
+        color: white;
+    }
+
+    .card:hover {
+        transform: translateY(-10px) scale(1.02);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    }
+
+    .star {
+        color: gold;
+    }
+
+    .search-box {
+        border-radius: 30px;
+        padding: 10px 20px;
+    }
+
+    .fade-in {
+        animation: fadeIn 0.6s ease;
+    }
+
+    @@keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+
+<div class="container mt-5 fade-in glass">
+
+    <!-- HEADER -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+
+        <div>
+            <h2 class="fw-bold">🌍 Vagabond</h2>
+            <p class="text-light">Travel. Explore. Remember.</p>
+        </div>
+
+        <div>
+            <button onclick="toggleDark()" class="btn btn-light me-2">🌙</button>
+
+            <button class="btn btn-warning shadow"
+                    data-bs-toggle="modal"
+                    data-bs-target="#destinationModal">
+                ➕ Add
+            </button>
+        </div>
+
+    </div>
+
+    <!-- SEARCH -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <input type="text" id="searchInput"
+                   class="form-control search-box"
+                   placeholder="🔍 Search..."
+                   onkeyup="filterCards()" />
+        </div>
+
+        <div class="col-md-3">
+            <select id="ratingFilter" class="form-select" onchange="filterCards()">
+                <option value="">All</option>
+                <option value="5">5 ⭐</option>
+                <option value="4">4 ⭐+</option>
+                <option value="3">3 ⭐+</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- EMPTY -->
+    @if (!Model.Any())
+    {
+        <div class="text-center text-white">
+            <h4>No destinations yet 😢</h4>
+        </div>
+    }
+    else
+    {
+        <div class="row">
+
+            @foreach (var d in Model)
+            {
+                <div class="col-lg-4 col-md-6 mb-4 destination-card"
+                     data-rating="@d.Rating">
+
+                    <div class="card h-100 p-3">
+
+                        <h5>📍 @d.CityName</h5>
+                        <small>@d.Country</small>
+
+                        <p class="small mt-2">
+                            @(string.IsNullOrEmpty(d.Description)
+                                                ? "No description"
+                                                : d.Description.Length > 90
+                                                ? d.Description.Substring(0, 90) + "..."
+                                                : d.Description)
+                        </p>
+
+                        <!-- STARS -->
+                        <div>
+                            @for (int i = 1; i <= d.Rating; i++)
+                            {
+                                <span class="star">★</span>
+                            }
+                        </div>
+
+                        <div class="mt-auto d-flex justify-content-between">
+
+                            <small>🗓 @d.LastVisited.ToShortDateString()</small>
+
+                            <div>
+                                <a asp-action="Edit" asp-route-id="@d.Id"
+                                   class="btn btn-sm btn-outline-light">Edit</a>
+
+                                <button class="btn btn-sm btn-danger"
+                                        onclick="confirmDelete(@d.Id, this)">
+                                    Delete
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            }
+
+        </div>
+    }
+</div>
+
+<!-- MODAL -->
+<div class="modal fade" id="destinationModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5>Add Destination</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <input type="text" id="city" class="form-control mb-2" placeholder="City" />
+                <input type="text" id="country" class="form-control mb-2" placeholder="Country" />
+                <textarea id="description" class="form-control mb-2"></textarea>
+
+                <div id="stars" style="font-size:22px; cursor:pointer;">
+                    <span onclick="setRating(1)">☆</span>
+                    <span onclick="setRating(2)">☆</span>
+                    <span onclick="setRating(3)">☆</span>
+                    <span onclick="setRating(4)">☆</span>
+                    <span onclick="setRating(5)">☆</span>
+                </div>
+
+                <input type="hidden" id="rating" value="3" />
+                <input type="date" id="date" class="form-control mt-2" />
+
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-success" onclick="saveDestination()">Save</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+
+        function toggleDark() {
+            document.body.classList.toggle("dark-mode");
+        }
+
+        function setRating(val) {
+            document.getElementById("rating").value = val;
+            let stars = document.querySelectorAll("#stars span");
+
+            stars.forEach((s, i) => {
+                s.innerHTML = i < val ? "★" : "☆";
+            });
+        }
+
+        function filterCards() {
+            let search = document.getElementById("searchInput").value.toLowerCase();
+            let rating = document.getElementById("ratingFilter").value;
+
+            document.querySelectorAll(".destination-card").forEach(card => {
+                let text = card.innerText.toLowerCase();
+                let r = parseInt(card.getAttribute("data-rating"));
+
+                card.style.display =
+                    text.includes(search) && (!rating || r >= rating)
+                    ? "block" : "none";
+            });
+        }
+
+        async function confirmDelete(id, btn) {
+            if (!confirm("Delete?")) return;
+
+            const res = await fetch(`/Travel/Delete/${id}`, { method: "POST" });
+
+            if (res.ok) {
+                btn.closest('.col-lg-4').remove();
+                showToast("Deleted ✅", "success");
+            } else {
+                showToast("Error ❌", "danger");
+            }
+        }
+
+                async function saveDestination() {
+
+                    
+
+            const data = {
+                cityName: document.getElementById("city").value,
+                country: document.getElementById("country").value,
+                description: document.getElementById("description").value,
+                rating: parseInt(document.getElementById("rating").value),
+                lastVisited: new Date(document.getElementById("date").value).toISOString()
+            };
+
+            const res = await fetch('https://localhost:7249/api/destinations', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+
+            if (res.ok) {
+                showToast("Added ✅", "success");
+                location.reload();
+            } else {
+                let err = await res.text();
+                console.log(err); // 🔥 important debug
+                showToast("Failed ❌", "danger");
+            }
+             console.log("CLICK WORKING");
+        }
+
+        function showToast(msg, type) {
+            const toast = document.createElement("div");
+            toast.className = `alert alert-${type}`;
+            toast.innerText = msg;
+
+            document.getElementById("toastBox").appendChild(toast);
+            setTimeout(() => toast.remove(), 3000);
+        }
+
+    </script>
+}
