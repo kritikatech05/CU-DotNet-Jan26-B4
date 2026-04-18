@@ -1,0 +1,32 @@
+﻿@model List<NorthwindCatalog.Services.DTOs.ProductDto>
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+        <div>
+            <h1 class="fw-bold display-6 mb-1">Products</h1>
+            <p class="text-muted mb-0">Inventory details for the selected category.</p>
+        </div>
+        <a href="/Categories/Index" class="btn btn-outline-secondary rounded-pill px-4">← Back to Categories</a>
+    </div>
+
+    <div class="row g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-6 col-lg-4">
+                <div class="card product-card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-primary">@item.ProductName</h5>
+                        <hr />
+                        <p class="mb-2"><strong>Price:</strong> @item.UnitPrice.ToString("C")</p>
+                        <p class="mb-2"><strong>Units in Stock:</strong> @item.UnitsInStock</p>
+                        <p class="mb-0"><strong>Inventory Value:</strong> <span class="badge bg-success fs-6">@item.InventoryValue.ToString("C")</span></p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
