@@ -1,0 +1,40 @@
+﻿@model List<NorthwindCatalog.Services.DTOs.CategorySummaryDto>
+
+@{
+    ViewData["Title"] = "Category Summary";
+}
+
+<div class="container py-4">
+    <div class="text-center mb-4">
+        <h1 class="fw-bold display-6">Category Analytics</h1>
+        <p class="text-muted">Summary of products, average prices, and top-priced items by category.</p>
+    </div>
+
+    <div class="card border-0 shadow-sm">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Category</th>
+                            <th>Product Count</th>
+                            <th>Avg Price</th>
+                            <th>Most Expensive Product</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="fw-semibold">@item.CategoryName</td>
+                                <td>@item.ProductCount</td>
+                                <td>@item.AvgPrice.ToString("C")</td>
+                                <td>@item.MostExpensiveProduct</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

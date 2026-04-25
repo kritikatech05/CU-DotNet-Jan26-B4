@@ -1,0 +1,62 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+body {
+    background: linear-gradient(to right, #f8f9fa, #eef3f8);
+}
+
+.category-card,
+.product-card {
+    border-radius: 18px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    overflow: hidden;
+}
+
+    .category-card:hover,
+    .product-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12) !important;
+    }
+
+.category-img {
+    height: 220px;
+    object-fit: cover;
+    background-color: #f1f1f1;
+}
+
+.card-title {
+    letter-spacing: 0.3px;
+}
+
+.table thead th {
+    text-align: center;
+}
+
+.table tbody td {
+    vertical-align: middle;
+}
+
+.badge {
+    border-radius: 12px;
+    padding: 10px 14px;
+}
